@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+#twogood{
+    padding: 0 5px;
+    width: 9rem;
+}
+#twogoodlogo{
+    display: none;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 2rem;
+}
+
+.nav_link-list{
+    display: flex;
+    gap: 3rem;
+}
+.nav-lists,.nav-lists > a{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.781);
+    letter-spacing: 1px;
+}
+.nav_icon-list{
+    display: flex;
+    gap: 2rem;
+}
+.heading-container{
+    font-size: 15.61rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    line-height: 12rem;
+    margin: 4rem 1rem;
+}
+.main{
+    overflow-x: hidden;
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video{
+    width: 97vw;
+    object-fit: cover;
+}
+#circle{
+    position: fixed;
+    opacity: 0;
+    /* visibility: ; */
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+#circle-text{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+
+}
+
+.images-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.image-box{
+    width: 31%;
+    transform: translateZ(50px);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    transition: all linear 0.5s ;    
+}
+.img-box{
+    height: 2.5rem;
+    width: 75%;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 15%; */
+    border-radius: 10px;
+    background-color: rgb(238, 138, 154);
+}
+
+.product-box{
+    display: flex;
+    width: 100%;
+    /* gap: ; */
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    position: relative;
+    /* background-color: red; */
+    /* z-index: -10; */
+}
+.product > img{
+    width: 35vw;
+}
